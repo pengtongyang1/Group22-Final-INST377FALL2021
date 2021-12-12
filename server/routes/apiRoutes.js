@@ -4,7 +4,7 @@ import sequelize from 'sequelize';
 import db from '../database/initializeDB.js';
 
 /* import controllers -- we can use to replace previous import statements below. - Walesia */
-import controllers from '../server/controllers/controls.js';
+import controllers from '../controllers/controls.js';
 
 /* start router component */
 const router = express.Router();
@@ -24,9 +24,12 @@ router.get('/', (req, res) => {
 router.get('/songs_project', async (req, res) => {
   try {
     /* Get all songs */
-    const songs = await db.sequelizeDB.query(controllers.songControls.getAllSongs, {
-      type: sequelize.QueryTypes.SELECT
-    });
+    const songs = await db.sequelizeDB.query(
+      controllers.songControls.getAllSongs,
+      {
+        type: sequelize.QueryTypes.SELECT
+      }
+    );
 
     /* Sending some data */
     res.json(songs);
@@ -86,7 +89,7 @@ router.post('/songs_project', async (req, res) => {
   }
 });
 
-router.put('/songs_project', async (req, res) => {
+router.put('/songs_project/:song_id', async (req, res) => {
   try {
     await db.SongsProject.update(
       {
@@ -101,7 +104,7 @@ router.put('/songs_project', async (req, res) => {
       },
       {
         where: {
-          song_id: req.body.song_id
+          song_id: req.params.song_id
         }
       }
     );
