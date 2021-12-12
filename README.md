@@ -6,8 +6,6 @@ This project was created for INST377: Dynamic Web Applications (Fall 2021).
 
 The front end is written using HTML/CSS, Boostrap, and Bulma libraries while the backend operates using Express, Sequelize, and Node.js.
 
-[Markdown guide] (https://www.markdownguide.org/cheat-sheet/)
-
 ## Link to Website
 https://group22inst377.herokuapp.com/
 
