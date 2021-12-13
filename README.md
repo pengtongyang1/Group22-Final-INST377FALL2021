@@ -4,7 +4,7 @@ Our Music Database is a dynamic collection of trending and popular songs curated
 
 This project was created for INST377: Dynamic Web Applications (Fall 2021).
 
-The front end is written using HTML/CSS, Boostrap, and Bulma libraries while the backend operates using Express, Sequelize, and Node.js.
+The front end is written using Vanilla JS with Boostrap and Bulma. Our back end uses Node.js, Express, Sequelize, and MySQL.
 
 ## Link to Website
 https://group22inst377.herokuapp.com/
