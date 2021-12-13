@@ -104,7 +104,7 @@ Mobile:
         "first_name": "The",
         "last_name": "Weeknd",
         "ratings": 4
-      },]
+      }]
 
 ### Get a specific song
 
@@ -120,14 +120,14 @@ Mobile:
 
 #### Response
 
-      {
+    [{
         "song_id": 2,
         "song_name": "Holy",
         "album_name": "Justice",
         "first_name": "Justin",
         "last_Name": "Bieber",
         "ratings": 4
-      }
+      }]
 
 ### Creating a New Song
 
@@ -142,25 +142,25 @@ Mobile:
 
 ##### Example input:
 
-    {
+    [{
         "song_id": 35,
         "song_name": "Life Is Good",
         "album_name": "High Off Life",
         "first_name": "Future",
         "last_Name": " ",
         "ratings": "4"
-      }
+      }]
 
 #### Response
 
-  {
+  [{
       "song_id": 35,
       "song_name": "Life Is Good",
       "album_name": "High Off Life",
       "first_name": "Future",
       "last_Name": " ",
       "ratings": "4"
-    }
+    }]
 
 ### Updating an Existing Song
 
@@ -175,14 +175,14 @@ Mobile:
 
 ##### Example input:
 
-  {
+  [{
       "song_id": 1,
       "song_name": "Shivers",
       "album_name": "=",
       "first_name": "Ed",
       "last_name": "Sheeran",
       "ratings": 5
-    }
+    }]
 
 #### Response
 
@@ -200,7 +200,7 @@ Mobile:
 
 ##### Example input: 
 
-  DELETE: localhost:3000/api/songs_project/35
+  `DELETE: localhost:3000/api/songs_project/35`
 
 #### Response
 
