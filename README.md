@@ -215,7 +215,7 @@ As of 12 December 2021, there are no known bugs. <br> - If you encounter a bug i
 ## Acknowledgements
 
 Special thanks to Professor Alex, and all of the AMPs, and TAs of the INST377: Dynamic Web Applications instructional team. 
-Your support, encouragement, and office hours this term do not go unnoticed.
+Your support, encouragement, and flexible office hours this term were SO appreciated.
 We would also like to recognize the University of Maryland's iSchool curriculum for showing us how to bring diversity, equity and inclusion to technology and innovation. 
 
 ## Authors
