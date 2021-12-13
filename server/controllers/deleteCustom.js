@@ -1,4 +1,4 @@
-/*sql query deletes songs from our database */
+/* sql query deletes songs from our database */
 
 const deleteCustom = `DELETE song_name,
   
