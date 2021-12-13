@@ -168,7 +168,7 @@ Mobile:
 
 `PUT /songs_project/:song_id`
 
-    * api_url http://localhost:3000/api/songs_project/1
+    * api_url http://localhost:3000/api/songs_project/35
     * select PUT
     * under the BODY tab, select the RAW radio button
     * set drop down option TO JSON
@@ -181,7 +181,7 @@ Mobile:
       "album_name": "=",
       "first_name": "Ed",
       "last_name": "Sheeran",
-      "ratings": 5
+      "ratings": 4
     }
 
 #### Response
@@ -194,7 +194,7 @@ Mobile:
 
 `DELETE /songs_project/:song_id`
 
-    * api_url http://localhost:3000/api/songs_project/1
+    * api_url http://localhost:3000/api/songs_project/35
     * select DELETE
     * click SEND
 
