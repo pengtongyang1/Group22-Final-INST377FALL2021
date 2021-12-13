@@ -168,7 +168,7 @@ Mobile:
 
 `PUT /songs_project/:song_id`
 
-    * api_url http://localhost:3000/api/songs_project/1
+    * api_url http://localhost:3000/api/songs_project/35
     * select PUT
     * under the BODY tab, select the RAW radio button
     * set drop down option TO JSON
@@ -194,7 +194,7 @@ Mobile:
 
 `DELETE /songs_project/:song_id`
 
-    * api_url http://localhost:3000/api/songs_project/1
+    * api_url http://localhost:3000/api/songs_project/35
     * select DELETE
     * click SEND
 
@@ -215,7 +215,7 @@ As of 12 December 2021, there are no known bugs. <br> - If you encounter a bug i
 ## Acknowledgements
 
 Special thanks to Professor Alex, and all of the AMPs, and TAs of the INST377: Dynamic Web Applications instructional team. 
-Your support, encouragement, and office hours this term do not go unnoticed.
+Your support, encouragement, and flexible office hours this term were SO appreciated.
 We would also like to recognize the University of Maryland's iSchool curriculum for showing us how to bring diversity, equity and inclusion to technology and innovation. 
 
 ## Authors
